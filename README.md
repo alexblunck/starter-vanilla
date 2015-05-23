@@ -2,7 +2,7 @@
 A starting point for web projects built on vanilla javascript utilising gulp &amp; browserify.
 
 
-##### Project Structure
+#### Project Structure
 ```
 # The compiled app goes here
 - dist
@@ -20,7 +20,7 @@ A starting point for web projects built on vanilla javascript utilising gulp &am
 ```
 
 
-##### Getting Started
+#### Getting Started
 To get up and running quickly follow these steps:
 
 **Clone this repo**  
@@ -33,7 +33,7 @@ To get up and running quickly follow these steps:
 `$ gulp build`
 
 
-##### Gulp Tasks
+#### Gulp Tasks
 starter-vanilla uses gulp to build  your app. Following tasks are available:
 
 **Build app for production**  
@@ -43,7 +43,7 @@ starter-vanilla uses gulp to build  your app. Following tasks are available:
 `$ gulp watch` or `$ gulp`
 
 
-##### Requirements
+#### Requirements
 tarter-vanilla needs following things to be installed:
 
 - [Node.js](https://nodejs.org)  
