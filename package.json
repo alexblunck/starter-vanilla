@@ -1,0 +1,42 @@
+{
+  "name": "starter-vanilla",
+  "version": "1.0.0",
+  "description": "A starting point for web projects built on vanilla javascript utilising gulp & browserify.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "if [ -e dist ]; then rm -R dist; fi && if [ -e node_modules ]; then rm -R node_modules; fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexblunck/starter-vanilla.git"
+  },
+  "keywords": [
+    "gulp",
+    "browserify",
+    "vanilla",
+    "build",
+    "starter"
+  ],
+  "author": "Alexander Blunck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexblunck/starter-vanilla/issues"
+  },
+  "homepage": "https://github.com/alexblunck/starter-vanilla",
+  "devDependencies": {
+    "browser-sync": "^2.7.3",
+    "browserify": "^10.2.1",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.3.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  }
+}
