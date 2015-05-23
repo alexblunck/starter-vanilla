@@ -1,6 +1,7 @@
 # starter-vanilla
 A starting point for web projects built on vanilla javascript utilising gulp &amp; browserify.
 
+![](https://raw.githubusercontent.com/alexblunck/starter-vanilla/master/src/assets/image.gif)
 
 #### Project Structure
 ```
