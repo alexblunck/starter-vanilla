@@ -151,6 +151,10 @@ gulp.task('sass', function () {
                 outputStyle: 'compressed',
                 errLogToConsole: true
             }) )
+            .on('error', function(err) {
+                  console.error(err.toString());
+                  this.emit('end');
+            })
             .pipe( autoprefixer() )
             .pipe( concat('app.css') )
         .pipe( sourcemaps.write('./') )
