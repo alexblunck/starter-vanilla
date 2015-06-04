@@ -41,13 +41,14 @@ gulp.task('build', [
  */
 gulp.task('watch', [
     'clean',
-    'browserSync',
     'watchTask',
     'watchify',
     'index',
     'sass',
     'assets'
-]);
+], function () {
+    gulp.start(['browserSync']);
+});
 
 
 /**
@@ -169,7 +170,8 @@ gulp.task('sass', function () {
 gulp.task('assets', function () {
 
     return gulp.src('./src/assets/**/*.*')
-        .pipe( gulp.dest('./dist/assets') );
+        .pipe( gulp.dest('./dist/assets') )
+        .pipe( browserSync.stream() );
 });
 
 
