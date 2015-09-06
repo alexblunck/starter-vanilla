@@ -107,7 +107,7 @@ gulp.task('watchify', function () {
 gulp.task('browserSync', function () {
 
     browserSync({
-        browser: 'google chrome',
+        browser: 'google chrome canary',
         online: false,
         logSnippet: false,
         notify: false,
