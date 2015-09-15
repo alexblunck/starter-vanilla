@@ -1,5 +1,5 @@
 # starter-vanilla
-A starting point for web projects built on vanilla javascript utilising gulp &amp; browserify with es6 / es2015 support.
+A starting point for web projects built on vanilla es6 javascript utilising gulp & browserify.
 
 ![](https://raw.githubusercontent.com/alexblunck/starter-vanilla/master/src/assets/image.gif)
 
