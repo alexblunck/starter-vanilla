@@ -20,6 +20,21 @@ var browserify = require('browserify'),
 
 
 /**
+ * Options
+ */
+var options = {
+    /**
+     * @type {string} Proxy server to use with Browsersync
+     */
+    // proxyServer: 'http://localhost:8000',
+    /**
+     * @type {string} Name of browser Browsersync should open
+     */
+    // browser: 'google chrome'
+};
+
+
+/**
  * Task - Default (Watch)
  */
 gulp.task('default', ['watch']);
@@ -109,8 +124,8 @@ gulp.task('watchify', function () {
  */
 gulp.task('browserSync', function () {
 
-    browserSync({
-        browser: 'google chrome canary',
+    var bsOptions = {
+        browser: options.browser || 'google chrome',
         online: false,
         logSnippet: false,
         notify: false,
@@ -118,7 +133,14 @@ gulp.task('browserSync', function () {
         server: {
             baseDir: './dist'
         }
-    });
+    };
+
+    if (options.proxyServer) {
+        bsOptions.proxy = options.proxyServer;
+        delete bsOptions.server;
+    }
+
+    browserSync(bsOptions);
 });
 
 
