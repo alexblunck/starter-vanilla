@@ -5,6 +5,7 @@
 
 var browserify = require('browserify'),
       watchify = require('watchify'),
+      babelify = require("babelify"),
           gulp = require('gulp'),
         source = require('vinyl-source-stream'),
         buffer = require('vinyl-buffer'),
@@ -60,6 +61,7 @@ gulp.task('browserify', function () {
 
     // Transforms go here
     // e.g. bundler.transform(reactify);
+    bundler.transform(babelify);
 
     return bundler.bundle()
         .pipe( source('bundle.js') )
@@ -84,6 +86,7 @@ gulp.task('watchify', function () {
 
     // Transforms go here
     // e.g. bundler.transform(reactify);
+    bundler.transform(babelify);
 
     function rebundle () {
         return bundler.bundle()

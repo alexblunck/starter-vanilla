@@ -1,5 +1,5 @@
 # starter-vanilla
-A starting point for web projects built on vanilla javascript utilising gulp &amp; browserify.
+A starting point for web projects built on vanilla javascript utilising gulp &amp; browserify with es6 / es2015 support.
 
 ![](https://raw.githubusercontent.com/alexblunck/starter-vanilla/master/src/assets/image.gif)
 
@@ -24,28 +24,28 @@ A starting point for web projects built on vanilla javascript utilising gulp &am
 #### Getting Started
 To get up and running quickly follow these steps:
 
-*Clone this repo*  
+*Clone this repo*
 `$ git clone https://github.com/alexblunck/starter-vanilla.git`
 
-*Install dependencies*  
+*Install dependencies*
 `$ npm install`
 
-*Build app*  
+*Build app*
 `$ gulp build`
 
 
 #### Gulp Tasks
 starter-vanilla uses gulp to build  your app. Following tasks are available:
 
-*Build app for production*  
+*Build app for production*
 `$ gulp build`
 
-*Build app, open browser, watch for changes &amp; reload browser if necessary*  
+*Build app, open browser, watch for changes &amp; reload browser if necessary*
 `$ gulp watch` or `$ gulp`
 
 
 #### Requirements
 starter-vanilla needs following things to be installed:
 
-- [Node.js](https://nodejs.org)  
+- [Node.js](https://nodejs.org)
 - Gulp `$ sudo npm install gulp`

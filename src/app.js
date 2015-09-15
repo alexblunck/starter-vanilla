@@ -2,7 +2,7 @@
  * app.js
  */
 
-var store = require('./components/store.js');
+let store = require('./components/store.js');
 
-var elem = document.querySelector('.class');
+let elem = document.querySelector('.class');
 elem.innerHTML = store;
