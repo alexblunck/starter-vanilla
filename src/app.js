@@ -2,7 +2,7 @@
  * app.js
  */
 
-let store = require('./components/store.js');
+import store from './components/store';
 
 let elem = document.querySelector('.class');
 elem.innerHTML = store;

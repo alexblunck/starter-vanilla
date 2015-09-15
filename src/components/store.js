@@ -2,4 +2,4 @@
  * components / store.js
  */
 
-module.exports = 'starter-vanilla';
+export default 'starter-vanilla';
