@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "if [ -e dist ]; then rm -R dist; fi && if [ -e node_modules ]; then rm -R node_modules; fi"
+    "clean": "rm -Rf ./dist && rm -Rf ./node_modules"
   },
   "repository": {
     "type": "git",
