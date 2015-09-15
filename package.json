@@ -24,9 +24,8 @@
     "url": "https://github.com/alexblunck/starter-vanilla/issues"
   },
   "homepage": "https://github.com/alexblunck/starter-vanilla",
-  "devDependencies": {
-    "browser-sync": "~2.9.1",
-    "browserify": "~11.0.1",
+  "dependencies": {
+    "browserify": "~11.1.0",
     "del": "~2.0.01",
     "gulp": "~3.9.0",
     "gulp-autoprefixer": "~3.0.1",
@@ -35,11 +34,12 @@
     "gulp-sourcemaps": "~1.5.2",
     "gulp-uglify": "~1.4.0",
     "gulp-util": "~3.0.4",
+    "sanitize.css": "2.0.0",
     "vinyl-buffer": "~1.0.0",
-    "vinyl-source-stream": "~1.1.0",
-    "watchify": "~3.4.0"
+    "vinyl-source-stream": "~1.1.0"
   },
-  "dependencies": {
-    "sanitize.css": "^2.0.0"
+  "devDependencies": {
+    "browser-sync": "~2.9.1",
+    "watchify": "~3.4.0"
   }
 }
