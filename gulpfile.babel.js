@@ -22,7 +22,7 @@ const $ = require('gulp-load-plugins')();
  */
 const config = {
     dev: !argv.production,
-    bsBrowser: 'google chrome canary',
+    bsBrowser: 'google chrome',
     bsProxyServer: null
 };
 
