@@ -1,0 +1,38 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {}
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "worker": false,
+        "amd": false,
+        "mocha": false,
+        "jasmine": false,
+        "jest": false,
+        "phantomjs": false,
+        "protractor": false,
+        "qunit": false,
+        "jquery": false,
+        "prototypejs": false,
+        "shelljs": false,
+        "meteor": false,
+        "mongo": false,
+        "applescript": false,
+        "nashorn": false,
+        "serviceworker": false,
+        "embertest": false,
+        "webextensions": false
+    },
+    "rules": {
+        "no-console": 0,
+        "no-irregular-whitespace": 0,
+        "eqeqeq": 2,
+        "no-unused-vars": 1
+    }
+}
