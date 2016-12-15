@@ -3,4 +3,5 @@
  */
 
 @import 'sanitize.css';
+@import 'styles/variables';
 @import 'styles/base';
