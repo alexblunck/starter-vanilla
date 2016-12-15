@@ -2,10 +2,13 @@
   "name": "starter-vanilla",
   "version": "1.0.0",
   "description": "A starting point for web projects built on vanilla javascript utilising gulp & browserify.",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -Rf ./dist && rm -Rf ./node_modules"
+    "start": "gulp watch --sourcemaps",
+    "now-start": "serve ./build",
+    "build": "gulp build --production",
+    "clean": "rm -rf node_modules/ build/"
   },
   "repository": {
     "type": "git",

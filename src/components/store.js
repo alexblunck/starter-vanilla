@@ -2,4 +2,4 @@
  * components / store.js
  */
 
-export default 'starter-vanilla';
+export default 'starter-vanilla'
