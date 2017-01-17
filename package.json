@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch --sourcemaps",
-    "now-start": "serve ./build",
     "build": "gulp build --production",
     "clean": "rm -rf node_modules/ build/"
   },
@@ -30,8 +29,7 @@
   },
   "homepage": "https://github.com/alexblunck/starter-vanilla",
   "dependencies": {
-    "sanitize.css": "4.1.0",
-    "serve": "2.0.0"
+    "sanitize.css": "4.1.0"
   },
   "devDependencies": {
     "autoprefixer": "6.6.1",
