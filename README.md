@@ -6,46 +6,41 @@ A starting point for web projects built on vanilla es6 javascript utilising gulp
 #### Project Structure
 ```
 # The compiled app goes here
-- dist
+- build
+
 # This where the source of your app lives
 - src
     # Images, svg's etc.
     - assets
     # Javascript components
     - components
-    # Sass files
-    - sass
-    # Base javascript file (browserify starts here)
-    - app.js
+    # Stylesheets
+    - styles
+    # Base stylesheet
+    - index.css
     - index.html
+    # Base javascript file (browserify starts here)
+    - index.js
 ```
 
 
 #### Getting Started
-To get up and running quickly follow these steps:
+To get up and running quickly follow these console commands:
 
-*Clone this repo*
-`$ git clone https://github.com/alexblunck/starter-vanilla.git`
+##### Clone this repo
+`git clone https://github.com/alexblunck/starter-vanilla.git`
 
-*Install dependencies*
-`$ npm install`
+##### Install dependencies
+`npm install`
 
-*Build app*
-`$ gulp build`
+#####  Build app, open browser, watch for changes &amp; reload browser if necessary
+`npm start`
 
-
-#### Gulp Tasks
-starter-vanilla uses gulp to build  your app. Following tasks are available:
-
-*Build app for production*
-`$ gulp build`
-
-*Build app, open browser, watch for changes &amp; reload browser if necessary*
-`$ gulp watch` or `$ gulp`
+##### Build app for production
+`npm run build`
 
 
 #### Requirements
 starter-vanilla needs following things to be installed:
 
 - [Node.js](https://nodejs.org)
-- Gulp `$ sudo npm install gulp`
