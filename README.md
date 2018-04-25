@@ -1,46 +1,13 @@
-# starter-vanilla
-A starting point for web projects built on vanilla es6 javascript utilising gulp & browserify.
+# starter-angular
+Starting point for web projects using vanilla javascript & webpack.
 
-![](https://raw.githubusercontent.com/alexblunck/starter-vanilla/master/src/assets/image.gif)
+## Workflow
 
-#### Project Structure
-```
-# The compiled app goes here
-- build
+### Development
+Run `npm start` to start a development server, open a browser & watch for changes.
 
-# This where the source of your app lives
-- src
-    # Images, svg's etc.
-    - assets
-    # Javascript components
-    - components
-    # Stylesheets
-    - styles
-    # Base stylesheet
-    - index.css
-    - index.html
-    # Base javascript file (browserify starts here)
-    - index.js
-```
+### Production
+Run `npm run build` to create a production ready build in the `dist` directory.
 
-
-#### Getting Started
-To get up and running quickly follow these console commands:
-
-##### Clone this repo
-`git clone https://github.com/alexblunck/starter-vanilla.git`
-
-##### Install dependencies
-`npm install`
-
-#####  Build app, open browser, watch for changes &amp; reload browser if necessary
-`npm start`
-
-##### Build app for production
-`npm run build`
-
-
-#### Requirements
-starter-vanilla needs following things to be installed:
-
-- [Node.js](https://nodejs.org)
+### Profile
+Run `npm run profile` to profile the production build.

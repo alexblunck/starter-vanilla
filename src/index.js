@@ -1,8 +1,4 @@
-/**
- * index.js
- */
+import './index.scss'
 
-import store from './components/store'
-
-const elem = document.querySelector('.class')
-elem.innerHTML = store
+const elem = document.querySelector('h1')
+elem.innerHTML = 'starter-vanilla'
